@@ -41,3 +41,32 @@ The OCR system uses a hybrid deep learning model:
 1. Clone the repository:
    ```bash
    git clone https://github.com/brahmdi/OCR-Eng.git
+   cd OCR-Eng
+   ```
+2. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+
+### Streamlit Interface
+Run the Streamlit app to test the OCR system interactively:
+```bash
+streamlit run OCREng.py
+```
+
+## Features
+- **36-Class Character Recognition**: Supports both uppercase English alphabets (A-Z) and digits (0-9).
+- **Interactive Demo**: Streamlit interface for real-time predictions.
+- **Modular Codebase**: Easy to adapt and extend for other datasets or languages.
+
+## Future Work
+- **Sequence Recognition**: Extend the model to recognize full words and sentences.
+- **Mobile Integration**: Develop a mobile app for on-the-go handwriting recognition.
+- **Performance Optimization**: Experiment with advanced architectures like transformers.
+
+
+
+## Contact
+**Author**: Brahim El Hamdi  
+**Email**: hmdibrahim09@gmail.com  
